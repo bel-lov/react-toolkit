@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Домашнее задание к занятию "Redux Toolkit"
+---
+### Цель занятия
+1. Научиться работать с пакетом Redux Toolkit
+2. Создать на базе страницу с фактами о Star Wars
+### Инструкция к заданию
+1. Создайте поле ввода — input type=”number” с возможностью ввода цифр от 1 до 5.
+2. После ввода пользователем цифры, под этим полем отображается выбранное количество фактов о Star Wars.
+3. Факты, которые можно использовать, если не хотите использовать свои:
+- Прообразом Чубакки стал пес режиссера.
+- Актерам разрешили подобрать любимый цвет для своих световых мечей.
+- В фильме «Звездные войны-V: Империя наносит ответный удар» среди космических объектов можно заметить парящий ботинок и картофелину.
+- Дыхание Дарта Вейдера — это звуки дыхательной маски, подключенной к аквалангу.
+- Планета Татуин названа в честь реального города в Тунисе – стране, где происходила часть съемок
+### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
+1. Данный проект не предполагает взаимодействия по протоколу HTTP и наличия серверной части
+2. Визуальное представление предоставляется вам на выбор.
+3. Пользователю дана возможность загрузить фото в профиль. После загрузки, фото отображается в размере 200px*200px. После загрузки изображения, поле добавления фото не удаляется.
+4. Можно загружать неограниченное количество изображений. При загрузке следующего изображения, слева отображается последнее загруженное фото, остальные — справа.
+### Правила приема работы
+1. Выложите готовый код на github
+2. В README.md должен быть размещён бейджик сборки и ссылка на Github Pages
+3. Отправьте на проверку ссылку на ваш GitHub-проект
+4. Получите обратную связь от проверяющего в течение 5 дней (не считая дня сдачи работы)
+### Критерии оценки
+1. Можно использовать и npm, и yarn
+2. Авто-тесты писать не требуется, но можно
+3. Использован Redux Toolkit
+4. Должен быть создан slice
+5. Должна быть реализована настройка хранилища
+6. Нет ошибок ESLint
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+[![Build status](https://ci.appveyor.com/api/projects/status/g6bb55s7392bpre0?svg=true)](https://ci.appveyor.com/project/bel-lov/react-toolkit)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## https://bel-lov.github.io/react-toolkit/
